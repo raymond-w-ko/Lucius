@@ -215,7 +215,7 @@ elseif g:lucius_style == "dark_dim"
     hi TabLine      guifg=bg        guibg=#8a8a8a   ctermfg=bg     ctermbg=245       gui=none      cterm=none
     hi TabLineFill  guifg=#444444   guibg=#8a8a8a   ctermfg=238    ctermbg=245       gui=none      cterm=none
     hi TabLineSel   guifg=fg        guibg=#005f87   ctermfg=fg     ctermbg=24        gui=bold      cterm=bold
-    hi VertSplit    guifg=#626262   guibg=#8a8a8a   ctermfg=241    ctermbg=245       gui=none      cterm=none
+    hi VertSplit    guifg=#bcbcbc   guibg=#303030   ctermfg=241    ctermbg=245       gui=none      cterm=none
     hi Folded       guifg=#a8a8a8   guibg=#4e4e4e   ctermfg=248    ctermbg=239       gui=bold      cterm=none
     hi FoldColumn   guifg=#a8a8a8   guibg=#4e4e4e   ctermfg=248    ctermbg=239       gui=bold      cterm=none
 

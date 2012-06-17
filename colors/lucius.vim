@@ -190,7 +190,7 @@ elseif g:lucius_style == "dark_dim"
     hi Underlined   guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=underline cterm=underline
     hi Error        guifg=#d75f5f   guibg=#870000   ctermfg=167    ctermbg=88        gui=none      cterm=none
     hi Todo         guifg=#afaf00   guibg=#5f5f00   ctermfg=142    ctermbg=58        gui=none      cterm=none
-    hi MatchParen   guifg=bg        guibg=#87af5f   ctermfg=bg     ctermbg=107       gui=none      cterm=bold
+    hi MatchParen   guifg=#00ff00   guibg=bg        ctermfg=bg     ctermbg=107       gui=none      cterm=bold
     hi NonText      guifg=#5f5f87   guibg=NONE      ctermfg=60     ctermbg=NONE      gui=none      cterm=none
     hi SpecialKey   guifg=#5f875f   guibg=NONE      ctermfg=65     ctermbg=NONE      gui=none      cterm=none
     hi Title        guifg=#00afd7   guibg=NONE      ctermfg=38     ctermbg=NONE      gui=bold      cterm=bold
@@ -206,8 +206,8 @@ elseif g:lucius_style == "dark_dim"
     hi Search       guifg=bg        guibg=#d78700   ctermfg=bg     ctermbg=172       gui=none      cterm=none
 
     " == UI ==
-    hi Pmenu        guifg=bg        guibg=#8a8a8a   ctermfg=bg     ctermbg=245       gui=none      cterm=none
-    hi PmenuSel     guifg=fg        guibg=#005f87   ctermfg=fg     ctermbg=24        gui=none      cterm=none
+    hi Pmenu        guifg=#000000   guibg=#eeeeee   ctermfg=bg     ctermbg=245       gui=none      cterm=none
+    hi PmenuSel     guifg=#eeeeee   guibg=#000000   ctermfg=fg     ctermbg=24        gui=none      cterm=none
     hi PmenuSbar    guifg=#8a8a8a   guibg=#bcbcbc   ctermfg=245    ctermbg=250       gui=none      cterm=none
     hi PmenuThumb   guifg=fg        guibg=#585858   ctermfg=fg     ctermbg=240       gui=none      cterm=none
     hi StatusLine   guifg=bg        guibg=#8a8a8a   ctermfg=bg     ctermbg=245       gui=bold      cterm=bold

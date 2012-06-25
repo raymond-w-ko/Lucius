@@ -196,7 +196,7 @@ elseif g:lucius_style == "dark_dim"
     hi Title        guifg=#00afd7   guibg=NONE      ctermfg=38     ctermbg=NONE      gui=bold      cterm=bold
 
     " ## Text Selection ##
-    hi Cursor       guifg=bg        guibg=#00dd00   ctermfg=bg     ctermbg=67        gui=none      cterm=none
+    hi Cursor       guifg=bg        guibg=#00e800   ctermfg=bg     ctermbg=67        gui=none      cterm=none
     hi CursorIM     guifg=bg        guibg=#5f87af   ctermfg=bg     ctermbg=67        gui=none      cterm=none
     hi CursorColumn guifg=NONE      guibg=#444444   ctermfg=NONE   ctermbg=238       gui=none      cterm=none
     hi CursorLine   guifg=NONE      guibg=#444444   ctermfg=NONE   ctermbg=238       gui=none      cterm=none
@@ -206,8 +206,8 @@ elseif g:lucius_style == "dark_dim"
     hi Search       guifg=bg        guibg=#d78700   ctermfg=bg     ctermbg=172       gui=none      cterm=none
 
     " == UI ==
-    hi Pmenu        guifg=#000000   guibg=#dddddd   ctermfg=bg     ctermbg=245       gui=none      cterm=none
-    hi PmenuSel     guifg=#dddddd   guibg=#000000   ctermfg=fg     ctermbg=24        gui=none      cterm=none
+    hi Pmenu        guifg=#dddddd   guibg=#000000   ctermfg=bg     ctermbg=245       gui=none      cterm=none
+    hi PmenuSel     guifg=#000000   guibg=#dddddd   ctermfg=fg     ctermbg=24        gui=none      cterm=none
     hi PmenuSbar    guifg=#8a8a8a   guibg=#bcbcbc   ctermfg=245    ctermbg=250       gui=none      cterm=none
     hi PmenuThumb   guifg=fg        guibg=#585858   ctermfg=fg     ctermbg=240       gui=none      cterm=none
     hi StatusLine   guifg=bg        guibg=#8a8a8a   ctermfg=bg     ctermbg=245       gui=bold      cterm=bold

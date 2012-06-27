@@ -206,7 +206,7 @@ elseif g:lucius_style == "dark_dim"
     hi Search       guifg=bg        guibg=#d78700   ctermfg=bg     ctermbg=172       gui=none      cterm=none
 
     " == UI ==
-    hi Pmenu        guifg=#dddddd   guibg=#000000   ctermfg=bg     ctermbg=245       gui=none      cterm=none
+    hi Pmenu        guifg=#00ff00   guibg=#003700   ctermfg=bg     ctermbg=245       gui=none      cterm=none
     hi PmenuSel     guifg=#000000   guibg=#dddddd   ctermfg=fg     ctermbg=24        gui=none      cterm=none
     hi PmenuSbar    guifg=#8a8a8a   guibg=#bcbcbc   ctermfg=245    ctermbg=250       gui=none      cterm=none
     hi PmenuThumb   guifg=fg        guibg=#585858   ctermfg=fg     ctermbg=240       gui=none      cterm=none

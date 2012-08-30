@@ -190,7 +190,7 @@ elseif g:lucius_style == "dark_dim"
     hi Underlined   guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=underline cterm=underline
     hi Error        guifg=#d75f5f   guibg=#870000   ctermfg=167    ctermbg=88        gui=none      cterm=none
     hi Todo         guifg=#afaf00   guibg=#5f5f00   ctermfg=142    ctermbg=58        gui=none      cterm=none
-    hi MatchParen   guifg=#00ff00   guibg=bg        ctermfg=bg     ctermbg=107       gui=none      cterm=bold
+    hi MatchParen   guifg=#00ff00   guibg=bg        ctermfg=046    ctermbg=bg        gui=none      cterm=bold
     hi NonText      guifg=#5f5f87   guibg=NONE      ctermfg=60     ctermbg=NONE      gui=none      cterm=none
     hi SpecialKey   guifg=#5f875f   guibg=NONE      ctermfg=65     ctermbg=NONE      gui=none      cterm=none
     hi Title        guifg=#00afd7   guibg=NONE      ctermfg=38     ctermbg=NONE      gui=bold      cterm=bold

@@ -534,7 +534,7 @@ else
     hi SignColumn                   guibg=#4e4e4e
     hi StatusLineNC guifg=#444444
     hi TabLineFill  guifg=#444444
-    hi VertSplit    guifg=#626262
+    hi VertSplit                    guibg=bg
     hi WildMenu                     guibg=#005f87
     if s:contrast == "low"
         hi FoldColumn   guifg=#a8a8a8
@@ -548,7 +548,7 @@ else
         hi TabLine                      guibg=#8a8a8a
         hi TabLineFill                  guibg=#8a8a8a
         hi TabLineSel                   guibg=#005f87
-        hi VertSplit                    guibg=#8a8a8a
+        hi VertSplit    guifg=#8a8a8a
     elseif s:contrast == "high"
         hi FoldColumn   guifg=#c6c6c6
         hi Folded       guifg=#c6c6c6
@@ -561,7 +561,7 @@ else
         hi TabLine                      guibg=#bcbcbc
         hi TabLineFill                  guibg=#bcbcbc
         hi TabLineSel                   guibg=#0087af
-        hi VertSplit                    guibg=#bcbcbc
+        hi VertSplit    guifg=#bcbcbc
     else
         hi FoldColumn   guifg=#bcbcbc
         hi Folded       guifg=#bcbcbc
@@ -574,7 +574,7 @@ else
         hi TabLine                      guibg=#b2b2b2
         hi TabLineFill                  guibg=#b2b2b2
         hi TabLineSel                   guibg=#005f87
-        hi VertSplit                    guibg=#b2b2b2
+        hi VertSplit    guifg=#b2b2b2
     endif
 endif
 

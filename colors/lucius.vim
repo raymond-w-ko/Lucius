@@ -419,8 +419,8 @@ else
     hi Search       guifg=bg
     hi Visual                       guibg=#005f87
     if s:contrast == "low"
-        hi Cursor                       guibg=#5f87af
-        hi CursorIM                     guibg=#5f87af
+        hi Cursor                       guibg=#00d700
+        hi CursorIM                     guibg=#00d700
         hi Error        guifg=#d75f5f   guibg=#870000
         hi IncSearch                    guibg=#00afaf
         hi MatchParen                   guibg=bg
